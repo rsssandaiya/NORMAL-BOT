@@ -1,5 +1,6 @@
 
 
+
 {
   "name":"BWM-XMD",
   "description":"Best whatsapp bot developed by Ibrahim adams",
@@ -23,13 +24,13 @@
     },
 "MENUTYPE":
     {
-      "description":"Enter 1 for Christmas menu, Enter 2 for normal menu, leave blank for random display ",
-      "value":"1",
+      "description":"Enter 1 for small thumbnail menu, Enter 2 for big thumbnail menu, leave blank and they will be displaying randomly big or Small ",
+      "value":"",
       "required":false
     },
-"AUDIO_REPLY":
+"AUDIO_CHATBOT":
     {
-      "description":"Enter yes for your bot to audio reply",
+      "description":"Enter yes for your bot to audio chat to messages when offline ",
       "value":"no",
       "required":false
     },
@@ -51,7 +52,7 @@
       "value":"no",
       "required":false
     },
-"AUTO_REPLY":
+"CHATBOT":
     {
       "description":"Enter yes for your bot to auto reply message when offline",
       "value":"no",
